@@ -59,11 +59,11 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   );
 
   const total = items.reduce((acc, item) => {
-    const price = item.id.startsWith('sk')
-      ? item.id.includes('gray')
-        ? 40
-        : 20
-      : 20;
+    const price = item.id.startsWith('hd')
+      ? item.id.includes('black')
+        ? 210000
+        : 150000
+      : 150000;
     return acc + price * item.quantity;
   }, 0);
 

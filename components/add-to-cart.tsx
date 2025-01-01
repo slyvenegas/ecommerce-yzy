@@ -73,7 +73,7 @@ export function AddToCart({ product }: { product: Product }) {
               transition={{ type: 'tween', ease: 'easeInOut', duration: 0.2 }}
             >
               <div className="w-8" />
-              <p className="font-medium font-mono uppercase">SELECT SIZE</p>
+              <p className="font-medium font-mono uppercase">SELECCIONE TALLA</p>
               <motion.div
                 className="size-8"
                 variants={{

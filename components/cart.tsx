@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import { Sheet, SheetContent, SheetTitle } from '@/components/ui/sheet';
-import { ChevronRight, Minus, Plus } from 'lucide-react';
-import { useCart } from './cart-context';
-import { SIZES } from './add-to-cart';
+import Image from "next/image";
+import { Sheet, SheetContent, SheetTitle } from "@/components/ui/sheet";
+import { ChevronRight, Minus, Plus } from "lucide-react";
+import { useCart } from "./cart-context";
+import { SIZES } from "./add-to-cart";
 
 export function Cart({ isOpen, onClose }: { isOpen: boolean; onClose: any }) {
   const { items, updateQuantity, total } = useCart();
@@ -12,7 +12,7 @@ export function Cart({ isOpen, onClose }: { isOpen: boolean; onClose: any }) {
   return (
     <Sheet open={isOpen} onOpenChange={onClose}>
       <SheetContent className="w-full sm:max-w-md border-l-0 p-0 [&_button[aria-label=Close]]:size-12 absolute right-0 top-0 h-full">
-        <SheetTitle className="sr-only">Cart</SheetTitle>
+        <SheetTitle className="sr-only">Carrito</SheetTitle>
         <div className="flex flex-col h-full">
           <div className="flex-1 overflow-auto py-6 px-8">
             {items.map((item) => (
@@ -33,26 +33,26 @@ export function Cart({ isOpen, onClose }: { isOpen: boolean; onClose: any }) {
                 <div className="flex flex-col justify-between py-1 flex-1">
                   <div className="space-y-1">
                     <p className="font-mono uppercase text-sm">
-                      {item.id.split('-').slice(0, -1).join('-')}
+                      {item.id.split("-").slice(0, -1).join("-")}
                     </p>
                     <p className="font-mono">
                       $
-                      {item.id.startsWith('sk')
-                        ? item.id.includes('gray')
-                          ? '40'
-                          : '20'
-                        : '20'}
+                      {item.id.startsWith("hd")
+                        ? item.id.includes("black")
+                          ? "210000"
+                          : "150000"
+                        : "150000"}
                     </p>
                   </div>
                   <div className="space-y-1">
                     <div className="flex items-center justify-between">
-                      <p className="font-mono text-sm">SIZE</p>
+                      <p className="font-mono text-sm">TALLA</p>
                       <p className="font-mono text-sm">
                         {SIZES[item.size].label}
                       </p>
                     </div>
                     <div className="flex items-center justify-between">
-                      <p className="font-mono text-sm">QTY</p>
+                      <p className="font-mono text-sm">CANT</p>
                       <div className="flex items-center gap-4">
                         <button
                           className="p-1"
@@ -81,7 +81,7 @@ export function Cart({ isOpen, onClose }: { isOpen: boolean; onClose: any }) {
                 <p className="font-mono">${total}</p>
               </div>
               <p className="font-mono text-sm text-muted-foreground">
-                TAX AND SHIPPING NOT INCLUDED
+                IVA + ENVÍO NO INCLUIDO
               </p>
               <a
                 href="https://www.yeezy.com"
@@ -89,7 +89,7 @@ export function Cart({ isOpen, onClose }: { isOpen: boolean; onClose: any }) {
                 rel="noopener noreferrer"
                 className="w-full flex items-center justify-between bg-black text-white p-4 font-mono"
               >
-                CONTINUE
+                PAGAR
                 <ChevronRight className="h-4 w-4" />
               </a>
             </div>
