@@ -9,157 +9,157 @@ export interface Product {
 export const products: Product[] = [
   {
     id: 'sh-01-white',
-    name: 'T-Shirt 01',
+    name: 'T-SHIRT 01',
     image:
-      '/images/T_SHIRT_1.jpg',
+      'https://res.cloudinary.com/ddqgjf5wr/image/upload/f_auto,q_auto/v1/merch_bluk/k8lhtviemd80kzzhyban',
   },
   {
     id: 'sh-02-white',
-    name: 'T-Shirt 02',
+    name: 'T-SHIRT 02',
     image:
-      '/images/T_SHIRT_2.jpg',
+      'https://res.cloudinary.com/ddqgjf5wr/image/upload/f_auto,q_auto/v1/merch_bluk/mcdta9zb7ar0mxg6ac9r',
   },
   {
     id: 'sh-03-white',
-    name: 'Hoodie 01',
+    name: 'T-SHIRT 03',
     image:
-      '/images/T_SHIRT_3.jpg',
+      'https://res.cloudinary.com/ddqgjf5wr/image/upload/f_auto,q_auto/v1/merch_bluk/nkz9iunjuvojvtwz7duv',
   },
   {
     id: 'sh-04-white',
-    name: 'Windbreaker 01',
+    name: 'T-SHIRT 04',
     image:
-      '/images/T_SHIRT_4.jpg',
+      'https://res.cloudinary.com/ddqgjf5wr/image/upload/f_auto,q_auto/v1/merch_bluk/nykxnocsgobyog1x2p0u',
   },
   {
     id: 'sh-05-white',
-    name: 'Racing Coat 01',
+    name: 'T-SHIRT 05',
     image:
-      '/images/T_SHIRT_5.jpg',
+      'https://res.cloudinary.com/ddqgjf5wr/image/upload/f_auto,q_auto/v1/merch_bluk/vcaveyiibwxnjpspll5u',
   },
   {
     id: 'sh-06-white',
-    name: 'Shorts 01',
+    name: 'T-SHIRT 06',
     image:
-      '/images/T_SHIRT_6.jpg',
+      'https://res.cloudinary.com/ddqgjf5wr/image/upload/f_auto,q_auto/v1/merch_bluk/unyrdnskgzfvdrmy3cst',
   },
   {
     id: 'hd-01-black',
-    name: 'Sport Pants 01',
+    name: 'CREWNECK 01',
     image:
-      '/images/T_SHIRT_7.jpg',
+      'https://res.cloudinary.com/ddqgjf5wr/image/upload/f_auto,q_auto/v1/merch_bluk/k3gncud9ww8uvzqtpkvq',
   },
   {
     id: 'hd-02-black',
-    name: 'Sport Pants 06',
+    name: 'CREWNECK 02',
     image:
-      '/images/T_SHIRT_8.jpg',
+      'https://res.cloudinary.com/ddqgjf5wr/image/upload/f_auto,q_auto/v1/merch_bluk/gawwlevckg5fga2uugqs',
   },
   {
     id: 'sh-07-white',
-    name: 'Socks 01',
+    name: 'T-SHIRT 07',
     image:
-      '/images/T_SHIRT_9.jpg',
+      'https://res.cloudinary.com/ddqgjf5wr/image/upload/f_auto,q_auto/v1/merch_bluk/lrynaepaiznde5pcira8',
   },
   {
     id: 'sh-08-white',
-    name: 'T-Shirt 01',
+    name: 'T-SHIRT 08',
     image:
-      '/images/T_SHIRT_10.jpg',
+      'https://res.cloudinary.com/ddqgjf5wr/image/upload/f_auto,q_auto/v1/merch_bluk/izrlzzght8dfh1yfvh3q',
   },
   {
     id: 'sh-09-white',
-    name: 'T-Shirt 02',
+    name: 'T-SHIRT 09',
     image:
-      '/images/T_SHIRT_11.jpg',
+      'https://res.cloudinary.com/ddqgjf5wr/image/upload/f_auto,q_auto/v1/merch_bluk/ziodirct09nj9rjfkfc1',
   },
   {
     id: 'sh-10-white',
-    name: 'Hoodie 01',
+    name: 'T-SHIRT 10',
     image:
-      '/images/T_SHIRT_12.jpg',
+      'https://res.cloudinary.com/ddqgjf5wr/image/upload/f_auto,q_auto/v1/merch_bluk/wns3rznloefamc9jts3g',
   },
   {
     id: 'sh-11-white',
-    name: 'Windbreaker 01',
+    name: 'T-SHIRT 11',
     image:
-      '/images/T_SHIRT_13.jpg',
+      'https://res.cloudinary.com/ddqgjf5wr/image/upload/f_auto,q_auto/v1/merch_bluk/o4wc7itudynht2df6heo',
   },
   {
     id: 'sh-12-white',
-    name: 'Racing Coat 01',
+    name: 'T-SHIRT 12',
     image:
-      '/images/T_SHIRT_14.jpg',
+      'https://res.cloudinary.com/ddqgjf5wr/image/upload/f_auto,q_auto/v1/merch_bluk/wns3rznloefamc9jts3g',
   },
   {
     id: 'hd-03-black',
-    name: 'Shorts 01',
+    name: 'CREWNECK 03',
     image:
-      '/images/T_SHIRT_15.jpg',
+      'https://res.cloudinary.com/ddqgjf5wr/image/upload/f_auto,q_auto/v1/merch_bluk/tpgdor7grcwsv7k6sh42',
   },
   {
     id: 'hd-04-black',
-    name: 'Sport Pants 01',
+    name: 'CREWNECK 04',
     image:
-      '/images/T_SHIRT_16.jpg',
+      'https://res.cloudinary.com/ddqgjf5wr/image/upload/f_auto,q_auto/v1/merch_bluk/zvcxjsszc3ejyk9c7ike',
   },
   {
     id: 'hd-05-black',
-    name: 'Sport Pants 06',
+    name: 'CREWNECK 05',
     image:
-      '/images/T_SHIRT_17.jpg',
+      'https://res.cloudinary.com/ddqgjf5wr/image/upload/f_auto,q_auto/v1/merch_bluk/o9hibglpppqozh05tsbk',
   },
   {
     id: 'hd-06-black',
-    name: 'Socks 01',
+    name: 'CREWNECK 06',
     image:
-      '/images/T_SHIRT_18.jpg',
+      'https://res.cloudinary.com/ddqgjf5wr/image/upload/f_auto,q_auto/v1/merch_bluk/vzcxy1v6diue859mrd05',
   },
   {
     id: 'hd-07-black',
-    name: 'T-Shirt 01',
+    name: 'CREWNECK 07',
     image:
-      '/images/T_SHIRT_19.jpg',
+      'https://res.cloudinary.com/ddqgjf5wr/image/upload/f_auto,q_auto/v1/merch_bluk/qnc0h7fzobwnmazfx6c4',
   },
   {
     id: 'hd-08-black',
-    name: 'T-Shirt 02',
+    name: 'CREWNECK 08',
     image:
-      '/images/T_SHIRT_20.jpg',
+      'https://res.cloudinary.com/ddqgjf5wr/image/upload/f_auto,q_auto/v1/merch_bluk/a6ni4hyymeprvyazxapz',
   },
   {
     id: 'hd-09-black',
-    name: 'Hoodie 01',
+    name: 'CREWNECK 09',
     image:
-      '/images/T_SHIRT_21.jpg',
+      'https://res.cloudinary.com/ddqgjf5wr/image/upload/f_auto,q_auto/v1/merch_bluk/clsbmmlsautfzctwybuz',
   },
   {
     id: 'hd-10-black',
-    name: 'Windbreaker 01',
+    name: 'CREWNECK 10',
     image:
-      '/images/T_SHIRT_22.jpg',
+      'https://res.cloudinary.com/ddqgjf5wr/image/upload/f_auto,q_auto/v1/merch_bluk/gtarp9rszznmg80kcckf',
   },
   {
     id: 'sh-13-white',
-    name: 'Racing Coat 01',
+    name: 'T-SHIRT 13',
     image:
-      '/images/T_SHIRT_23.jpg',
+      'https://res.cloudinary.com/ddqgjf5wr/image/upload/f_auto,q_auto/v1/merch_bluk/yz51rn7zyzuztxefxc1b',
   },
   {
     id: 'sh-14-white',
-    name: 'Shorts 01',
+    name: 'T-SHIRT 14',
     image:
-      '/images/T_SHIRT_24.jpg',
+      'https://res.cloudinary.com/ddqgjf5wr/image/upload/f_auto,q_auto/v1/merch_bluk/e7iicxrne84y259mical',
   },
   {
     id: 'hd-11-black',
-    name: 'Sport Pants 01',
+    name: 'CREWNECK 11',
     image:
       'https://res.cloudinary.com/ddqgjf5wr/image/upload/f_auto,q_auto/v1/merch_bluk/ndrj0c4ivso01b2f80ds',
   },
   {
     id: 'hd-12-black',
-    name: 'Crewneck Black 01',
+    name: 'CREWNECK 12',
     image:
       'https://res.cloudinary.com/ddqgjf5wr/image/upload/f_auto,q_auto/v1/merch_bluk/cfj9ryqb7vsgh3lf1ngg',
   },
