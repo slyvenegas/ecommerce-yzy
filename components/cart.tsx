@@ -83,6 +83,7 @@ export function Cart({ isOpen, onClose }: { isOpen: boolean; onClose: any }) {
               <p className="font-mono text-sm text-muted-foreground">
                 IVA + ENVÍO NO INCLUIDO
               </p>
+              {/* section commented */}
               <a
                 href="https://www.yeezy.com"
                 target="_blank"
