@@ -163,14 +163,9 @@ export const products: Product[] = [
     image:
       'https://res.cloudinary.com/ddqgjf5wr/image/upload/f_auto,q_auto/v1/merch_bluk/cfj9ryqb7vsgh3lf1ngg',
   },
-  // {
-  //   id: 'sk-01-black',
-  //   name: 'Socks 01',
-  //   image:
-  //     'https://6gy9systudbmcbju.public.blob.vercel-storage.com/sk-black-8GRZrj1nL3fHXEjFe80gDz7T8QtQ5N.png',
-  // },
 ];
 
+// Function to find product by ID
 export function getProductById(id: string): Product | undefined {
   return products.find((product) => product.id === id);
 }
